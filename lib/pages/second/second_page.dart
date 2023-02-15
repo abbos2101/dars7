@@ -11,6 +11,7 @@ class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //commit1
+    //commit2
     final args = ModalRoute.of(context)!.settings.arguments as Map?;
     if (args != null) {
       context.read<SecondProvider>().setCount(args["count"] as int);
