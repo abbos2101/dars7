@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 class SecondPage extends StatelessWidget {
   static const String route = "/second";
   //add payment commit
+  //
 
   const SecondPage({Key? key}) : super(key: key);
 
@@ -12,6 +13,7 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final args = ModalRoute.of(context)!.settings.arguments as Map?;
     if (args != null) {
+      //fdfgfd
       context.read<SecondProvider>().setCount(args["count"] as int);
     }
     return Scaffold(
