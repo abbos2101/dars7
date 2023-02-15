@@ -6,7 +6,6 @@ class SecondProvider extends ChangeNotifier {
 
   void setCount(int count) {
     _count = count;
-    //git uchun
     notifyListeners();
   }
 
