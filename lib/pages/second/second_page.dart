@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 class SecondPage extends StatelessWidget {
   static const String route = "/second";
+  //add payment commit
 
   const SecondPage({Key? key}) : super(key: key);
 
